@@ -6,15 +6,15 @@ def create_main_dic():
     while data != "end":
         name, numbers = data.split(' -> ')
 
-        if name not in dic:          # only if it is not presented, otherwise it will delete previous values
-            dic[name] = []           # if it is NOT initialized it would return a KeyError + name
+        if name not in dic:         
+            dic[name] = []       
         try:
             list_numbers = map(int, numbers.split(', '))
             dic[name] += list_numbers
         except ValueError:
             key = numbers
             if key in dic.keys():    # If the other key does not exist, this input line must be IGNORED.
-                dic[name] += dic[key]       # dic[key] -> value
+                dic[name] += dic[key]       
         data = input()
 
     return dic

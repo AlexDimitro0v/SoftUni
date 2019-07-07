@@ -1,6 +1,7 @@
 # https://www.dataquest.io/blog/tutorial-functions-modify-lists-dictionaries-python/ - MUST SEE
 # https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747   - Very helpful
-# https://realpython.com/pointers-in-python/
+# https://realpython.com/pointers-in-python/ - MUST SEE
+
 
 # Immutable objects(Float, Int, String):
 def fun(x, y, z):
@@ -23,7 +24,7 @@ b = 6
 
 b = a
 a += 1              # Now a occupy a different address in the memory
-# print(id(a))     
+# print(id(a))
 print('а =', a)
 print('b =', b)     # B is unchanged
 

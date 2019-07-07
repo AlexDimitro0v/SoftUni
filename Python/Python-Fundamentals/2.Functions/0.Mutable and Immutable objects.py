@@ -27,6 +27,7 @@ a += 1              # Now a occupy a different address in the memory
 # print(id(a))
 print('а =', a)
 print('b =', b)     # B is unchanged
+print('-'*25)
 
 
 # _______________________________________________________________________________________________
@@ -55,3 +56,14 @@ def duplicate_last(a_list):
 new_list = duplicate_last(a_list=initial_list)
 print(new_list)      # [1, 2, 3, 3]
 print(initial_list)  # [1, 2, 3, 3]
+print('-'*25)
+
+# __________________________________________________________________________________________________________________
+# Keeping mutable data unchanged
+lst1 = [1, 2, 3]
+lst2 = list(lst1)       # playing the role of .copy()
+lst3 = lst2.copy()
+print(f"lst1: {lst1}\nlst2: {lst2}\nlst3: {lst3}")
+lst1[0] = 100
+lst2[0] = 1000
+print(f"\nlst1: {lst1}\nlst2: {lst2}\nlst3: {lst3}")

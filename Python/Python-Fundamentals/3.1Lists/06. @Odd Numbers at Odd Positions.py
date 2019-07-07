@@ -1,3 +1,4 @@
+# https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/#What_if_we_need_to_loop_over_multiple_things?
 def solve1(lst):
     position = 0
     for number in lst:
@@ -16,6 +17,8 @@ def solve2(lst):
 
 # _________________________________________________________________________
 # another way with enumerate
+# Note that you may see newer Pythonistas use range(len(sequence)) in Python.
+# If you ever see code with range(len(...)), you’ll almost always want to use enumerate instead.
 def solve3(lst):
     for index, number in enumerate(lst):
         if index % 2 == 1 and number % 2 != 0:

@@ -1,4 +1,5 @@
 # https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558
+# https://treyhunner.com/2018/03/tuple-unpacking-improves-python-code-readability/
 
 
 # A function that shows the results of running competitions consisting of 2 to 4 runners.
@@ -26,3 +27,12 @@ def save_ranking(*args, **kwargs):
 save_ranking('ming', 'alice', 'tom', 'wilson', 'roy', first='ming', second='alice', fourth='wilson', third='tom')
 # ('ming', 'alice', 'tom', 'wilson', 'roy')
 # {'first': 'ming', 'second': 'alice', 'fourth': 'wilson', 'third': 'tom'}
+
+
+print('-'*25)
+# The Asterisks is also used for unpacking:
+numbers = [1, 2, 3, 4, 5, 6]
+first, *rest = numbers
+print(rest)     # [2, 3, 4, 5, 6]
+print(first)    # 1
+

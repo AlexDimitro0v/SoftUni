@@ -1,6 +1,6 @@
 Exercises: Dictionary
 =====================
-Problems for exercises and homework for the [“Python Fundamentals” course \@SoftUni](https://softuni.bg/opencourses/python-fundamentals-course).
+Problems for exercises and homework for the [“Python Fundamentals” course \@SoftUni](https://softuni.bg/opencourses/python-fundamentals-course).  
 Submit your solutions in the SoftUni judge system at: <https://judge.softuni.bg/Contests/1088/Dictionaries-Exercises>.
 
 1.Key-Key Value-Value

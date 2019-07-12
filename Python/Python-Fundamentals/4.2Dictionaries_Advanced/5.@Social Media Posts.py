@@ -1,4 +1,4 @@
-# Dictionaries inside a dictionary
+# Dictionaries inside a Dictionary
 def create_main_dic():
     posts = dict()
     data = input()

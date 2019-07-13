@@ -11,11 +11,11 @@ def save():
 
 
 def add():
-    task = text_entry.get()
-    to_do_list.append(task)
+    task = text_entry.get()        # Get the task 
     if task:
+        to_do_list.append(task)
         text_entry.delete(0, END)  # Clear the text entry box
-        output.insert(END, task)   # Insert the text into the To-Do Listbox
+        output.insert(END, task)   # Insert the task into the To-Do Listbox
 
 
 def close():

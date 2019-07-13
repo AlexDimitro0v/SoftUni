@@ -29,7 +29,7 @@ def close():
 # Мain:
 window = Tk()
 window.title('To-DO List: ')
-window.geometry('600x450')
+window.geometry('500x250')
 
 
 # Create a text entry box for adding a task
@@ -48,6 +48,7 @@ add_button.grid(row=1, padx=10, pady=20)
 add_button = Button(window, text='Quit', cursor="X_cursor", activeforeground='white', activebackground='black',
                     bg='red', relief="solid", command=close)
 add_button.grid(row=1, column=10, padx=20, pady=20)
+
 
 # Create a text box
 output = Listbox(window, height=10, width=25, fg='black', relief="solid")

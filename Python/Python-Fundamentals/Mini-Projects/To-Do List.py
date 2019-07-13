@@ -53,7 +53,6 @@ add_button.grid(row=1, column=10, padx=20, pady=20)
 output = Listbox(window, height=10, width=25, fg='black', relief="solid")
 output.grid(row=0, column=3, padx=15)
 
-# Save the To-Do list into a text file
 
 # Run the main loop
 window.mainloop()

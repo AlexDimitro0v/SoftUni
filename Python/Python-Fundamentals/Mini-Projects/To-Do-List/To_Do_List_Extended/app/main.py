@@ -40,7 +40,7 @@ add_button.grid(row=0, column=1, sticky=W, padx=4)
 text_entry = Entry(right_frame, bg='grey', width=25, insertbackground='red', relief="solid")
 text_entry.grid(row=1, column=1, padx=5)
 text_entry.insert(0, 'Add your task here')
-text_entry.bind("<Button-1>", lambda event: text_entry.delete(0, END))        # placeholder
+text_entry.bind("<Button-1>", lambda event: text_entry.delete(0, END)) # placeholder
 
 
 # More buttons

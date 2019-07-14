@@ -57,3 +57,4 @@ output.grid(row=0, column=3, padx=15)
 
 # Run the main loop
 window.mainloop()
+save()

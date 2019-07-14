@@ -1,4 +1,5 @@
 import pickle
+import sys
 from tkinter import END, messagebox
 to_do_list = []                    # Global to-do list to store all the tasks
 
@@ -51,4 +52,4 @@ def close():
                                       icon='warning')
     if question == 'yes':
         save()
-        quit()
+        sys.exit(0)

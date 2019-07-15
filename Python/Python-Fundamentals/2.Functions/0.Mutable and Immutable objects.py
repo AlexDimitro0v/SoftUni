@@ -1,6 +1,6 @@
 # https://www.dataquest.io/blog/tutorial-functions-modify-lists-dictionaries-python/ - MUST SEE
 # https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747   - Very helpful
-# https://realpython.com/pointers-in-python/ - MUST SEE
+# https://realpython.com/pointers-in-python/                                         - MUST SEE
 
 
 # Immutable objects(Float, Int, String):
@@ -58,6 +58,7 @@ print(new_list)      # [1, 2, 3, 3]
 print(initial_list)  # [1, 2, 3, 3]
 print('-'*25)
 
+
 # __________________________________________________________________________________________________________________
 # Keeping mutable data unchanged
 lst1 = [1, 2, 3]
@@ -67,3 +68,17 @@ print(f"lst1: {lst1}\nlst2: {lst2}\nlst3: {lst3}")
 lst1[0] = 100
 lst2[0] = 1000
 print(f"\nlst1: {lst1}\nlst2: {lst2}\nlst3: {lst3}")
+
+
+# __________________________________________________________________________________________________________________
+# Mutable Default Argument
+# https://stackoverflow.com/questions/1132941/least-astonishment-and-the-mutable-default-argument
+def f(x, lst=[]):
+    for i in range(x):
+        lst.append(i * i)
+    print(lst)
+
+
+f(2)              # [0, 1]
+f(3, [3, 2, 1])   # [3, 2, 1, 0, 1, 4]
+f(3)              # [0, 1, 0, 1, 4]      the list occupies the same memory location as the list from the first call

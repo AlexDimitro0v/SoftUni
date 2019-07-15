@@ -1,12 +1,12 @@
 import pickle
-import sys
 from tkinter import END, messagebox
+import sys
 to_do_list = []                    # Global to-do list to store all the tasks
 
 
 def update_task_list(output):
     # TODO: Optimize the process for a better performance
-    clear_task_list(output)        # Clear the list
+    output.delete(0, END)          # Clear the list
     for task in to_do_list:
         output.insert(END, task)   # Insert each task into the To-Do Listbox
 
@@ -24,6 +24,7 @@ def add_task(text_entry, output):
 
 def clear_task_list(output):
     output.delete(0, END)
+    to_do_list.clear()
 
 
 def delete_selected_task(output):
@@ -48,7 +49,7 @@ def save():
 
 
 def close():
-    question = messagebox.askquestion('Exit Application', 'Are you sure you want to exit the application',
+    question = messagebox.askquestion('Exit Application', 'Are you sure you want to exit the application?',
                                       icon='warning')
     if question == 'yes':
         save()

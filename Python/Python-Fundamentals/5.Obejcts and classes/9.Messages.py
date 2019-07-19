@@ -2,18 +2,9 @@ import itertools as it
 
 
 class User:
-    def __init__(self, username, received_messages=[]):
+    def __init__(self, username):
         self.username = username
-        self.received_messages = received_messages
-
-    def add_received_messages(self, message):
-        if not self.received_messages:
-            self.received_messages = []
-            # a new empty list because else it shares the same list from the default with the other Users
-        self.received_messages += [message]
-
-    def __str__(self):
-        return self.username
+        self.received_messages = []
 
 
 class Message:
@@ -40,7 +31,7 @@ def main():
             if sender in registered_usernames and recipient in registered_usernames:
                 for obj in usernames_list:
                     if obj.username == recipient:
-                        User.add_received_messages(obj, Message(*content, sender))
+                        obj.received_messages.append(Message(*content, sender))
         data = input()
 
     user_sender, user_recipient = input().split()

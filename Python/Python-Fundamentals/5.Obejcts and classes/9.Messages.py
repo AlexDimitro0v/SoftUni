@@ -1,4 +1,4 @@
-import itertools as it
+from itertools import zip_longest
 
 
 class User:
@@ -28,31 +28,30 @@ def main():
             sender = data[0]
             recipient = data[2]
             content = data[3:]     # returns a list
+
+            # Skip if someone does not exist
             if sender in registered_usernames and recipient in registered_usernames:
                 for obj in usernames_list:
                     if obj.username == recipient:
+                        # Create a new message
                         obj.received_messages.append(Message(*content, sender))
         data = input()
 
+    # Read users for report
     user_sender, user_recipient = input().split()
 
-    filtered_usernames = list(filter(lambda x: x.username == user_sender or x.username == user_recipient,
-                                     usernames_list))
-
     recipient_received_msgs = [msg.content
-                               for obj in filtered_usernames
-                               if obj.username == user_recipient
+                               for obj in filter(lambda x: x.username == user_recipient, usernames_list)
                                for msg in obj.received_messages
                                if msg.sender == user_sender
                                ]
     sender_received_msgs = [msg.content
-                            for obj in filtered_usernames
-                            if obj.username == user_sender
+                            for obj in filter(lambda x: x.username == user_sender, usernames_list)
                             for msg in obj.received_messages
                             if msg.sender == user_recipient
                             ]
 
-    conversation = list(it.zip_longest(recipient_received_msgs, sender_received_msgs))
+    conversation = list(zip_longest(recipient_received_msgs, sender_received_msgs))
     if not conversation:
         print("No messages")
         return

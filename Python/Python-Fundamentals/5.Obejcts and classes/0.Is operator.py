@@ -5,17 +5,18 @@ list3 = list1
 
 print(list1 == list2)       # True  - both are empty lists
 print(list1 is list2)       # False - different memory locations
+list1 += [1]                # The change will be reflected in both list1 and list3
 print(list1 is list3)       # True  - both lists are pointing to the same object - pointing to the same memory location
 print(id(list1), id(list2), id(list3))
 """
 When assigning a name of a variable in Python, you: 
 1.Create a PyObject
-2.Set the typecode to integer for the PyObject
-3.Set the value to 2337 for the PyObject
-4.Create a name called x
-5.Point x to the new PyObject
+2.Set the typecode to list for the PyObject
+3.Set the value to [] for the PyObject
+4.Create a name called list1
+5.Point list1 to the new PyObject
 
-Meaning that there are no exact pointers in Python
+Meaning that there are actually no exact pointers in Python
 https://realpython.com/pointers-in-python/   -> More Info here
 # Remember that in Python, names are just labels referencing values !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 """

@@ -6,9 +6,10 @@ class Point:
         self.x = int(x)
         self.y = int(y)
 
-    def distance_to_another_point(self, p2):
-        side_a = p2.x - self.x
-        side_b = p2.y - self.y
+    @staticmethod
+    def distance_to_another_point(p1, p2):
+        side_a = p2.x - p1.x
+        side_b = p2.y - p1.y
         distance = sqrt(side_a**2 + side_b**2)
         return int(distance)
 
@@ -28,7 +29,7 @@ class Box:
 
     @property
     def width(self):
-        return self.upper_left.distance_to_another_point(self.upper_right)
+        return Point.distance_to_another_point(self.upper_left, self.upper_right)
 
     @property
     def height(self):

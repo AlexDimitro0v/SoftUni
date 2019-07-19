@@ -40,7 +40,7 @@ class Point2(Point):
         #   2. We want to create a class Point for a single point (only one x and y), not for many points.
 
 
-def distance_between_points(p1, p2):  # reusable code (parameters: point1, point2)
+def distance_between_points(p1: Point, p2: Point):  # reusable code (parameters: point1, point2 [both of class Point])
     side_a = p2.x - p1.x
     side_b = p2.y - p1.y
     return sqrt(side_a**2 + side_b**2)

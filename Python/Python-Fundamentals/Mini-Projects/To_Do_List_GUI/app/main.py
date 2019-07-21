@@ -1,5 +1,5 @@
 from tkinter import *
-from To_Do_List_Extended.program_functions import functions     # importing the interactive command functions
+from To_Do_List_GUI.program_functions import functions     # importing the interactive command functions
 
 # ______________________________________________________________________________________________________________________
 # Tkinter GUI part - using pack() as a main geometry manager

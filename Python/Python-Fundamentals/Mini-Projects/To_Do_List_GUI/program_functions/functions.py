@@ -49,8 +49,7 @@ def save():
 
 
 def close():
-    question = messagebox.askquestion('Exit Application', 'Are you sure you want to exit the application?',
-                                      icon='warning')
+    question = messagebox.askquestion('Exit Application', 'Are you sure you want to exit the application?', icon='warning')
     if question == 'yes':
         save()
         sys.exit(0)

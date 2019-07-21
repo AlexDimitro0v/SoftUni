@@ -1,5 +1,5 @@
 # Preview:
-![solid](./preview.png)
+![solid](./preview.PNG)
 
 ### Installation
 - Download [main.exe](./main.exe)

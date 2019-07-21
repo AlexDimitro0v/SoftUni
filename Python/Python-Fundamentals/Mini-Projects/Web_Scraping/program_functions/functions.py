@@ -33,12 +33,7 @@ def print_user_info(text_entry, output, window):
             panel = Label(window, image=profile_pic)
             panel.image = profile_pic
             panel.grid(row=1, column=0)
-            #
-            # output.insert(END, "--------------------------------Recent Activity:-------------------------------\n")
-            # # username = user.screen_name
-            # # last_tweets = tweets(username)
-            # # for status in last_tweets:
-            #    #  output.insert(END, status)
+
         except twitter.error.TwitterError:
             messagebox.showwarning("Warning", "No user exists with such a @username.")
     else:
@@ -46,7 +41,6 @@ def print_user_info(text_entry, output, window):
 
 
 def tweets(name, batch_size=5):
-    # Credits: https://gist.github.com/codeinthehole/0e7430d79f3dcd1235c89f9367a49a1b
     """
     Return a generator that emits tweet status information.
     """

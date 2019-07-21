@@ -1,16 +1,16 @@
 from tkinter import END, messagebox, Label
 import twitter
-import os
+from Web_Scraping.program_functions.config import ACCESS_KEY, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET
 from PIL import Image, ImageTk
 import requests
 from io import BytesIO
 
 # Twitter API part
-# Program Authentication, using environmental global variables https://www.youtube.com/watch?v=5iWhQWVXosU
-api = twitter.Api(consumer_key=os.environ.get('CONSUMER_KEY'),
-                  consumer_secret=os.environ.get('CONSUMER_SECRET'),
-                  access_token_key=os.environ.get('ACCESS_KEY'),
-                  access_token_secret=os.environ.get('ACCESS_SECRET'))
+# Program Authentication
+api = twitter.Api(consumer_key=CONSUMER_KEY,
+                  consumer_secret=CONSUMER_SECRET,
+                  access_token_key=ACCESS_KEY,
+                  access_token_secret=ACCESS_SECRET)
 
 
 def print_user_info(text_entry, output, window):

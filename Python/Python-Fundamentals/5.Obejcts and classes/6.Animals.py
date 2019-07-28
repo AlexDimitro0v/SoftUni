@@ -16,6 +16,9 @@ class Dog(Animal):
     def produce_sound():
         return "I'm a Distinguishedog, and I will now produce a distinguished sound! Bau Bau."
 
+    def __str__(self):
+        return f'Dog: {self.name}, Age: {self.age}, Number Of Legs: {self.number_of_legs}'
+
 
 class Cat(Animal):
     def __init__(self, name, age, intelligence_quotient):
@@ -26,6 +29,9 @@ class Cat(Animal):
     def produce_sound():
         return "I'm an Aristocat, and I will now produce an aristocratic sound! Myau Myau."
 
+    def __str__(self):
+        return f'Cat: {self.name}, Age: {self.age}, IQ: {self.intelligence_quotient}'
+
 
 class Snake(Animal):
     def __init__(self, name, age, cruelty_coefficient):
@@ -35,6 +41,9 @@ class Snake(Animal):
     @staticmethod
     def produce_sound():
         return "I'm a Sophistisnake, and I will now produce a sophisticated sound! Honey, I'm home."
+
+    def __str__(self):
+        return f'Snake: {self.name}, Age: {self.age}, Cruelty: {self.cruelty_coefficient}'
 
 
 def create_object(data):
@@ -59,17 +68,14 @@ def main():
                     # example: Dog.produce_sound(animal)
         data = input()
 
-    for animal in animals_list:
-        if isinstance(animal, Dog):
-            print(f"Dog: {animal.name}, Age: {animal.age}, Number Of Legs: {animal.number_of_legs}")
+    dogs = list(filter(lambda obj: isinstance(obj, Dog), animals_list))
+    cats = list(filter(lambda obj: isinstance(obj, Cat), animals_list))
+    snakes = list(filter(lambda obj: isinstance(obj, Snake), animals_list))
 
-    for animal in animals_list:
-        if isinstance(animal, Cat):
-            print(f"{animal.__class__.__name__}: {animal.name}, Age: {animal.age}, IQ: {animal.intelligence_quotient}")
+    sorted_animals = dogs + cats + snakes
 
-    for animal in animals_list:
-        if isinstance(animal, Snake):
-            print(f"Snake: {animal.name}, Age: {animal.age}, Cruelty: {animal.cruelty_coefficient}")
+    for animal in sorted_animals:
+        print(animal)
 
 
 if __name__ == '__main__':

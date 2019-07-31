@@ -152,7 +152,8 @@ Consider the workweek from Monday to Friday. A faculty number should be consiste
 | **Input**                                 | **Output**                                                            |
 |-------------------------------------------|-----------------------------------------------------------------------|
 | Ivan Ivanov 08                            | Invalid faculty number!                                               | 
-| Pesho Kirov 1590 10                       |                                                                       |                   | **Input**                                 | **Output**                                                            |
+| Pesho Kirov 1590 10                       |                                                                       |
+| **Input**                                 | **Output**                                                            |
 | Stefo Mk321 0812111                       | First Name: Stefo                                                     |
 | Ivcho Ivancov 1590 10                     | Last Name: Mk321                                                      |
 |                                           | Faculty number: 0812111                                               |

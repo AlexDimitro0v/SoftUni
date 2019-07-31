@@ -152,7 +152,7 @@ Consider the workweek from Monday to Friday. A faculty number should be consiste
 | **Input**                                 | **Output**                                                            |
 |-------------------------------------------|-----------------------------------------------------------------------|
 | Ivan Ivanov 08                            | Invalid faculty number!                                               | 
-| Pesho Kirov 1590 10                       |                                                                       |                                                                                                                          |
+| Pesho Kirov 1590 10                       |                                                                       |                   | **Input**                                 | **Output**                                                            |
 | Stefo Mk321 0812111                       | First Name: Stefo                                                     |
 | Ivcho Ivancov 1590 10                     | Last Name: Mk321                                                      |
 |                                           | Faculty number: 0812111                                               |
@@ -204,9 +204,11 @@ When the command "**Beast!**" is given, stop the input and print all the animals
 | Sharo 132 Male                                | Dog                                                |
 | Beast!                                        | Sharo 132 Male                                     |
 |                                               | Woof!                                              |
+| **Input**                                     | **Output**                                         |
 | Frog                                          | Frog                                               |
 | Kermit 12 Male                                | Kermit 12 Male                                     |
 | Beast!                                        | Ribbit                                             |
+| **Input**                                     | **Output**                                         |
 | Frog                                          | Invalid input!                                     |
 | Sashko -2 Male                                | Frog                                               |
 | Frog                                          | Sashko 2 Male                                      |

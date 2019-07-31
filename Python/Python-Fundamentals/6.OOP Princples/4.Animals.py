@@ -92,7 +92,7 @@ def main():
         if cls == 'Beast!':
             return
         try:
-            params = input().split()
+            params = input().split()            # name, age, gender
             animal = eval(cls)(*params)
             print(animal)
         except Exception as e:

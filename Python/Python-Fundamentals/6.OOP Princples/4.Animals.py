@@ -71,7 +71,7 @@ class Cat(Animal):
 
 
 class Kitten(Cat):
-    def __init__(self, name, age):
+    def __init__(self, name, age, gender):
         super().__init__(name, age, 'Female')
 
     def produce_sound(self):
@@ -79,7 +79,7 @@ class Kitten(Cat):
 
 
 class Tomcat(Cat):
-    def __init__(self, name, age):
+    def __init__(self, name, age, gender):
         super().__init__(name, age, 'Male')
 
     def produce_sound(self):

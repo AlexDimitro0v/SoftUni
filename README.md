@@ -12,4 +12,4 @@
 | Course | Certificate |
 | ------ | ----------- |
 | [Programming Basics - Python](https://softuni.bg/trainings/1929/programming-basics-with-python-april-2018) | [Link](https://softuni.bg/certificates/details/66656/85537e13)|
-| [Python Fundamentals](https://softuni.bg/opencourses/python-fundamentals-course) | [Link]()|
+| [Python Fundamentals](https://softuni.bg/opencourses/python-fundamentals-course) | [Link](https://softuni.bg/certificates/details/70191/ebbbb0c7)|

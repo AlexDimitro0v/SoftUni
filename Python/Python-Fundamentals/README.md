@@ -4,7 +4,7 @@
 These are my solutions to the tasks set by the [Software University](https://softuni.bg/trainings/courses) for the [Python Fundamentals Course - June 2019.](https://softuni.bg/trainings/2329/python-fundamentals-june%20-2019)
 
 #### Exercises
-* [Python Intro](./1.Python_Intro)
+* [Python Intro](../Python-Basics)
 * [Functions](./2.Functions)
 * [Lists](./3.1Lists)
 * [Advanced Lists](./3.2Lists_Advanced)

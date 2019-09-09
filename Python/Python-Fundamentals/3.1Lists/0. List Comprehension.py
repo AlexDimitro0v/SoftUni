@@ -42,3 +42,13 @@ while tweaking values slightly along the way and/or for filtering out values tha
 Comprehensions are a lovely tool, but they’re not your only tool. 
 Don’t forget the list and dict constructors and always consider for loops when your comprehensions get out of hand.
 """
+
+# https://treyhunner.com/2019/03/abusing-and-overusing-list-comprehensions-in-python/#Loops_disguised_as_comprehensions
+# Whenever you see a comprehension like this:
+# my_list = [x for x in some_iterable]
+
+# You could write this instead:
+# my_list = list(some_iterable)
+
+# Or using map:
+# my_list = list(map(lambda x: x, some_iterable))

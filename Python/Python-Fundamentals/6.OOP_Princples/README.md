@@ -3,7 +3,7 @@
 
 Problems for exercises and homework for the [“Python Fundamentals” course \@SoftUni](https://softuni.bg/opencourses/python-fundamentals-course).  
 
-Please submit your solutions (source code) of all below described problems at: *https://judge.softuni.bg/Contests/Practice/Index/1556?fbclid=IwAR0EIDrhz7MeS3Wu6ISGvcEuy8pRsVIpnakB3BXuBvcxFHpXYUuMn0rTbk\#0*
+Please submit your solutions (source code) of all below described problems at: *https://judge.softuni.bg/Contests/Practice/Index/1556fbclid=IwAR0EIDrhz7MeS3Wu6ISGvcEuy8pRsVIpnakB3BXuBvcxFHpXYUuMn0rTbk\#0*
 
 
 1.Person

@@ -12,5 +12,6 @@ These are my solutions to the tasks set by the [Software University](https://sof
 * [Advanced Dictionaries](./4.2Dictionaries_Advanced)
 * [Objects and Classes](./5.Objects_and_Classes)
 * [OOP Princples](./6.OOP_Princples)  
+* [Files and Directories](./7.Files_and_Directories)
 
 Note: PDF's of the tasks description are provided in the relevant folders.

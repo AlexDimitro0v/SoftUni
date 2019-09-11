@@ -16,7 +16,7 @@ def search_files(file_extension):
         for file in files:
             # https://stackoverflow.com/questions/541390/extracting-extension-from-filename-in-python
 
-            # extension = file.split(".")[-1]        alternative
+            # extension = file.split(".")[-1]       alternative
             extension = os.path.splitext(file)[1]
             # to get only the extension without the dot:
             # extension = os.path.splitext(file)[1][1:]

@@ -13,6 +13,7 @@ These are my solutions to the tasks set by the [Software University](https://sof
 * [Objects and Classes](./5.Objects_and_Classes)
 * [OOP Princples](./6.OOP_Princples)  
 * [Files and Directories](./7.Files_and_Directories)
+* [String and Text Processing](./8.Strings_and_Text_Processing)
 
 
 #### Past Exams

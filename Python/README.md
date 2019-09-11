@@ -5,6 +5,6 @@
 * [Python Fundamentals](./Python-Fundamentals)
 * [Django Web Development](./Django)
 
-Tasks written in Python are intended for **Python 3** (Built in 3.6)
+Tasks written in Python are intended for **Python 3** (Built-in 3.6)
 
 Note: The links send you to the Github folders containing the relevant course.

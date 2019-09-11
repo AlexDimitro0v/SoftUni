@@ -16,12 +16,9 @@ These are my solutions to the tasks set by the [Software University](https://sof
 
 
 #### Past Exams
-* [Exam - 10 March 2019]
-(https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/Python-Fundamentals/Past%20Exams/PythonExam%20(10%20March%202019))
-* [Exam - 24 March 2019]
-(https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/Python-Fundamentals/Past%20Exams/PythonExam%20(24%20March%202019))
-* [Exam - 26 August 2018]
-(https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/Python-Fundamentals/Past%20Exams/PythonExam%20(26%20August%202018))
+* [Exam - 10 March 2019](https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/PythonFundamentals/Past%20Exams/PythonExam%20(10%20March%202019))
+* [Exam - 24 March 2019](https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/PythonFundamentals/Past%20Exams/PythonExam%20(24%20March%202019))
+* [Exam - 26 August 2018](https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/PythonFundamentals/Past%20Exams/PythonExam%20(26%20August%202018))
 
 #### Mini-Projects
 * [To-Do-List App](./Mini-Projects/To_Do_List_GUI)

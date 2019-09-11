@@ -21,7 +21,7 @@ Grid.columnconfigure(window, 0, weight=1)  # https://stackoverflow.com/questions
 text_entry = Entry(upper_frame, width=40, insertbackground='red', relief="solid", justify='center', highlightthickness=2)
 text_entry.grid(row=0, column=0)
 text_entry.insert(0, 'Search for a user here')
-text_entry.bind("<Button-1>", lambda event: text_entry.delete(0, END))              		# placeholder
+text_entry.bind("<Button-1>", lambda event: text_entry.delete(0, END))              		 # placeholder
 
 
 # 'Search' button
@@ -29,7 +29,7 @@ search_button = Button(upper_frame, text='Search', activeforeground='red', activ
                        relief="solid", cursor="hand2", width=10,
                        command=lambda: print_user_info(text_entry, text_box, window))
 search_button.grid(row=0, column=1)
-window.bind("<Return>", (lambda event: print_user_info(text_entry, text_box, window)))      # On enter-press binding
+window.bind("<Return>", (lambda event: print_user_info(text_entry, text_box, window)))   # On enter-press binding
 
 # Text Box for displaying the user information
 text_box = Text(window, bg="grey", fg="black", cursor='arrow', height=35,

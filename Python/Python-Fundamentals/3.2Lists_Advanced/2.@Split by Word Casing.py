@@ -1,5 +1,5 @@
 # Creating private functions to check if word is upper_case or lower_case,
-# because special characters are not caught by the built-in functions
+# because special characters are not caught by the built-in functions.
 
 
 # ______________________

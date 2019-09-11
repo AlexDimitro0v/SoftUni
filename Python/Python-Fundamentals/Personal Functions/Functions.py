@@ -63,7 +63,7 @@ def create_sorted_directory(from_folder):
             if not os.path.exists(path):
                 os.makedirs(path)
             shutil.copy(from_folder + f'/{file}', path + f'/{file}')
-            # open(path2+f'/{file}', 'a').close()   creates empty files
+            # open(path2+f'/{file}', 'a').close()    creates empty files
 
 
 if __name__ == '__main__':

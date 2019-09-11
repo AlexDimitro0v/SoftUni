@@ -17,7 +17,7 @@ When assigning a name of a variable in Python, you:
 
 Meaning that there are no exact pointers in Python
 https://realpython.com/pointers-in-python/   -> More Info here
-# Remember that in Python, names are just labels referencing values !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# Remember that in Python, names are just labels referencing values !!!!!!!!!!!!!!!!!!!!!!!!!!!
 """
 
 print('-'*25)

@@ -171,8 +171,8 @@ def delete_person():
                 print(f"No records found for '{name}' in town: '{town}'.")
                 print('-' * 50 + '\n\n')
                 return
-        else:                                           # we found the person we want to delete
-            database.remove(*filtered_names_list)       # delete the person by unpacking the list storing him
+        else:                                             # we found the person we want to delete
+            database.remove(*filtered_names_list)         # delete the person by unpacking the list storing him
             pass
     else:
         print(f"No records found for '{name}'.")

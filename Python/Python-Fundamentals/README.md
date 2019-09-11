@@ -24,6 +24,5 @@ These are my solutions to the tasks set by the [Software University](https://sof
 * [To-Do-List App](./Mini-Projects/To_Do_List_GUI)
 * [Twitter Profile Reviewer](./Mini-Projects/Web_Scraping)
 
-[Actual Exam](./Exam)
 
 Note: PDF's of the tasks description are provided in the relevant folders.

@@ -14,12 +14,15 @@ These are my solutions to the tasks set by the [Software University](https://sof
 * [OOP Princples](./6.OOP_Princples)  
 * [Files and Directories](./7.Files_and_Directories)
 
+
 #### Past Exams
 * [Exam - 10 March 2019](https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/PythonFundamentals/Past%20Exams/PythonExam%20(10%20March%202019))
 * [Exam - 24 March 2019](https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/PythonFundamentals/Past%20Exams/PythonExam%20(24%20March%202019))
+* [Exam - 26 August 2018](https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/PythonFundamentals/Past%20Exams/PythonExam%20(26%20August%202018))
 
 #### Mini-Projects
 * [To-Do-List App](./Mini-Projects/To_Do_List_GUI)
 * [Twitter Profile Reviewer](./Mini-Projects/Web_Scraping)
+
 
 Note: PDF's of the tasks description are provided in the relevant folders.

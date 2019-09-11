@@ -14,8 +14,7 @@ These are my solutions to the tasks set by the [Software University](https://sof
 * [OOP Princples](./6.OOP_Princples)  
 * [Files and Directories](./7.Files_and_Directories)
 
-#### Actual Exam
-[Exam](./Exam)
+[Actual Exam](./Exam)
 
 #### Past Exams
 * [Exam - 10 March 2019](https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/PythonFundamentals/Past%20Exams/PythonExam%20(10%20March%202019))
